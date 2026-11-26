@@ -82,9 +82,6 @@ chmod +x setup.sh ma.sh
 
 > 「请使用 `math-modeling-orchestrator` 技能开始数学建模，赛题和数据在 `./data/`，先向我确认竞赛预设与预览台偏好。」
 
-> [!NOTE]
-> 如果你手里有原版 `MathAgent-3.1.0-portable.zip`，把它放在套件目录的**同级目录**再运行 `setup.cmd`，会自动抽取离线 307 包 Python、draw.io、pandoc（缺 `xelatex` 时还会抽取 TeX Live），这样第 2 步可以跳过。
-
 ---
 
 ## ✅ 安装后会配置什么
