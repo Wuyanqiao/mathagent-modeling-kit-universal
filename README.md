@@ -15,11 +15,13 @@
 
 ## 🤖 一句话让 Agent 帮你安装（推荐）
 
-把下面这段话**原样复制**发给你的 Agent（Antigravity / DSH / Claude Code / Codex / Cursor 均可），它会自动完成下载、校验、解压、安装依赖和全端配置：
+复制下面这句发给你的 Agent（Antigravity / DSH / Claude Code / Codex / Cursor 均可），它会自动读取完整安装指南并完成配置：
 
 ```text
-请帮我安装 MathAgent 数学建模通用 Agent 套件：从 https://github.com/Wuyanqiao/mathagent-modeling-kit-universal/releases/download/v1.0/mathagent-modeling-kit-universal-v1.0.zip 下载压缩包，并用同一 Release 中的 mathagent-modeling-kit-universal-v1.0.zip.sha256 校验 SHA-256；解压到用户目录下的 tools/mathagent-modeling-kit（若已存在先备份）；在解压目录用 Python 3.11+ 执行 pip install -r requirements.txt；然后运行一键安装（Windows 执行 .\setup.cmd，macOS/Linux 先 chmod +x setup.sh ma.sh 再执行 ./setup.sh）；最后运行 ma setup --check，把各 Agent 的 Skills 与 MCP 就绪情况汇报给我，并提醒我重启 Agent。
+请帮我安装 MathAgent 数学建模通用 Agent 套件，按照 https://raw.githubusercontent.com/Wuyanqiao/mathagent-modeling-kit-universal/main/AGENT_INSTALL_PROMPT.md 中的步骤自动完成下载、校验、安装与自检，完成后向我汇报。
 ```
+
+> 完整安装指令原文见 [AGENT_INSTALL_PROMPT.md](./AGENT_INSTALL_PROMPT.md)。
 
 > [!TIP]
 > 安装完成后重启 Agent，在比赛目录说一句：
